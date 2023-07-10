@@ -5,7 +5,7 @@ import "../styles/footer.css"
 function Footer() {
     return (
         <div className="footer">
-            <div className="copyright">© 2020 Kasa. All rights reserved</div>
+            <div className="mentionsLégales">Mentions Légales</div>
         </div>
     )
 }
