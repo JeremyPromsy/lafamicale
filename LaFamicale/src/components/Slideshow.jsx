@@ -29,9 +29,8 @@ const Slideshow = () => {
     };
 
     return (
-        <section id="gallery"> 
-            
-
+        <section id="gallery" className="gallery"> 
+            <div className="photos">
             {pictures.map((img, index) => {
                 return (
                     <div key={index}> {index === current && (
@@ -40,6 +39,7 @@ const Slideshow = () => {
                     </div>
                 );
             })}
+            </div>
             <div className="fleche">
             {pictures.length > 1 && (
                 <img src={flecheGauche} alt="left arrow" className="arrow-left" onClick={prevSlide}
