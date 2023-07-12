@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { HashRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import Nav from './components/Nav'
 import Footer from './components/Footer'
@@ -16,7 +16,7 @@ import "./index.css"
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <HashRouter>
+    <BrowserRouter>
     <Nav />
     <Routes>
       <Route path = "/" element ={<Home />} />
@@ -26,6 +26,6 @@ root.render(
       <Route path = "*" element ={<Error404 />} /> 
     </Routes>
     <Footer />
-    </HashRouter>
+    </BrowserRouter>
   </React.StrictMode>,
 );
