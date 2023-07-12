@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import logoNav from "../assets/LaFamicale1.png";
+import logoNav from "../assets/LOGO-famicale1-01.png";
 import "../styles/nav.css"
 
 function Navbar() {

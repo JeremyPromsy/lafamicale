@@ -8,6 +8,8 @@ import Footer from './components/Footer'
 import Home from './pages/Home'
 import Error404 from './pages/404'
 import Contact from './pages/Contact'
+import Mentions from './pages/Mentions'
+import Photos from './pages/Photos'
 
 import "./index.css"
 
@@ -19,6 +21,8 @@ root.render(
     <Routes>
       <Route path = "/" element ={<Home />} />
       <Route path = "/contact" element ={<Contact />} />
+      <Route path = "/mentionslégales" element ={<Mentions />} /> 
+      <Route path = "/photos" element ={<Photos />} /> 
       <Route path = "*" element ={<Error404 />} /> 
     </Routes>
     <Footer />
