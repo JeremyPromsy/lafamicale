@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/home.css"
-import Slideshow from "../Images/components/Slideshow";
-import Description from "../Images/components/Description";
+import Slideshow from "../components/Slideshow";
+import Description from "../components/Description";
 
 function Home () {
     return (
