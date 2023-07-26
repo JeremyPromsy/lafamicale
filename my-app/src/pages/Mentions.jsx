@@ -11,13 +11,11 @@ function Mentions() {
 </p>
 <p>
 Article 1 : Les mentions légales
-L’édition et la direction de la publication du site https://leblocsports.com/ est assurée par un auto-entrepreneur, domicilié 41 rue de la couse, 33000, Bordeaux. Numéro Siret 878 500 644 00017.
-</p><p>
+L’édition et la direction de la publication du site https://lafamicale.com/ est assurée par un auto-entrepreneur, domicilié 41 rue de la couse, 33000, Bordeaux.
 Numéro de téléphone est 0785575479
-</p><p>
 Adresse e-mail : lafamicale@gmail.com.
 </p> <p>
-L’hébergeur du site https://leblocsports.com/ est la société 02switch, dont le siège social est situé au 222 Boulevard Gustave Flaubert, 63000 Clermont-Ferrand, avec le numéro de téléphone : 04 44 44 60 40.
+L’hébergeur du site https://lafamicale.com/ est la société 02switch, dont le siège social est situé au 222 Boulevard Gustave Flaubert, 63000 Clermont-Ferrand, avec le numéro de téléphone : 04 44 44 60 40.
 </p> <p>
 ARTICLE 2 : Accès au site
 Le site https://lafamicale.com/ permet à l’utilisateur un accès gratuit à tout le site. Le site est accessible gratuitement en tout lieu à tout utilisateur ayant un accès à Internet. Tous les frais supportés par l’utilisateur pour accéder au service (matériel informatique, logiciels, connexion Internet, etc.) sont à sa charge.
@@ -27,7 +25,7 @@ Le site assure à l’utilisateur une collecte et un traitement d’informations
 
 En vertu de la loi Informatique et Libertés, en date du 6 janvier 1978, l’utilisateur dispose d’un droit d’accès, de rectification, de suppression et d’opposition de ses données personnelles. L’utilisateur exerce ce droit :
 
-par mail à l’adresse mail leblocsports@gmail.com
+par mail à l’adresse mail lafamicale@gmail.com
 via un formulaire de contact
 </p> <p>
 ARTICLE 4 : Propriété intellectuelle
@@ -42,20 +40,20 @@ Il est rappelé conformément à l’article L122-5 du Code de propriété intel
 ARTICLE 5 : Responsabilité
 Les sources des informations diffusées sur le site https://lafamicale.com/ sont réputées fiables mais le site ne garantit pas qu’il soit exempt de défauts, d’erreurs ou d’omissions.
 
-Les informations communiquées sont présentées à titre indicatif et général sans valeur contractuelle. Malgré des mises à jour régulières, le site https://leblocsports.com/ ne peut être tenu responsable de la modification des dispositions administratives et juridiques survenant après la publication. De même, le site ne peut être tenue responsable de l’utilisation et de l’interprétation de l’information contenue dans ce site.
+Les informations communiquées sont présentées à titre indicatif et général sans valeur contractuelle. Malgré des mises à jour régulières, le site https://lafamicale.com/ ne peut être tenu responsable de la modification des dispositions administratives et juridiques survenant après la publication. De même, le site ne peut être tenue responsable de l’utilisation et de l’interprétation de l’information contenue dans ce site.
 
 Le site https://lafamicale.com/ ne peut être tenu pour responsable d’éventuels virus qui pourraient infecter l’ordinateur ou tout matériel informatique de l’Internaute, suite à une utilisation, à l’accès, ou au téléchargement provenant de ce site.
 
 La responsabilité du site ne peut être engagée en cas de force majeure ou du fait imprévisible et insurmontable d’un tiers.
 </p> <p>
 ARTICLE 6 : Liens hypertextes
-Des liens hypertextes peuvent être présents sur le site. L’utilisateur est informé qu’en cliquant sur ces liens, il sortira du site https://leblocsports.com/. Ce dernier n’a pas de contrôle sur les pages web sur lesquelles aboutissent ces liens et ne saurait, en aucun cas, être responsable de leur contenu.
+Des liens hypertextes peuvent être présents sur le site. L’utilisateur est informé qu’en cliquant sur ces liens, il sortira du site https://lafamicale.com/. Ce dernier n’a pas de contrôle sur les pages web sur lesquelles aboutissent ces liens et ne saurait, en aucun cas, être responsable de leur contenu.
 </p> <p>
 
 ARTICLE 7 : Cookies
 L’utilisateur est informé que lors de ses visites sur le site, un cookie peut s’installer automatiquement sur son logiciel de navigation.
 
-Les cookies sont de petits fichiers stockés temporairement sur le disque dur de l’ordinateur de l’utilisateur par votre navigateur et qui sont nécessaires à l’utilisation du site https://leblocsports.com/. Les cookies ne contiennent pas d’information personnelle et ne peuvent pas être utilisés pour identifier quelqu’un. Un cookie contient un identifiant unique, généré aléatoirement et donc anonyme. Certains cookies expirent à la fin de la visite de l’utilisateur, d’autres restent.
+Les cookies sont de petits fichiers stockés temporairement sur le disque dur de l’ordinateur de l’utilisateur par votre navigateur et qui sont nécessaires à l’utilisation du site https://lafamicale.com/. Les cookies ne contiennent pas d’information personnelle et ne peuvent pas être utilisés pour identifier quelqu’un. Un cookie contient un identifiant unique, généré aléatoirement et donc anonyme. Certains cookies expirent à la fin de la visite de l’utilisateur, d’autres restent.
 
 L’information contenue dans les cookies est utilisée pour améliorer le site https://lafamicale.com/.
 
@@ -99,7 +97,7 @@ Allez dans l’onglet “Outils” du navigateur puis sélectionnez le menu “O
 
 Dans la fenêtre qui s’affiche, choisissez “Vie privée” et cliquez sur “Affichez les cookies”
 
-Repérez les fichiers qui contiennent le nom « www.leblocsports.com »
+Repérez les fichiers qui contiennent le nom « www.lafamicale.com »
 
 Sélectionnez-les et supprimez-les.
 
@@ -111,7 +109,7 @@ Cliquez sur “Sécurité”.
 
 Cliquez sur “Afficher les cookies”.
 
-Sélectionnez les cookies qui contiennent le nom « www.leblocsports.com » et cliquez sur “Effacer” ou sur “Tout effacer”.
+Sélectionnez les cookies qui contiennent le nom « www.lafamicale.com » et cliquez sur “Effacer” ou sur “Tout effacer”.
 
 Après avoir supprimé les cookies, cliquez sur “Terminé”.
 
