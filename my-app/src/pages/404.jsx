@@ -11,7 +11,7 @@ function Page404 () {
                     <p>Oups! La page que vous demandez n'existe pas.</p>
             </div>
             <Link to ="/" className="link">
-                Retournez sur la page d'accueil
+                Retournez sur la page d'accueil ! 
             </Link>
         </div>
     )
