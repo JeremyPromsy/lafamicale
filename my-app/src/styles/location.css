@@ -1,0 +1,10 @@
+.available {
+  background-color: #4CAF50; /* Vert */
+  color: #fff; /* Texte blanc */
+}
+
+/* Pour les dates indisponibles (rouges) */
+.unavailable {
+  background-color: #F44336; /* Rouge */
+  color: #fff; /* Texte blanc */
+}

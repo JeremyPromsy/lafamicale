@@ -10,6 +10,7 @@ import Error404 from './pages/404'
 import Contact from './pages/Contact'
 import Mentions from './pages/Mentions'
 import Photos from './pages/Photos'
+import CalendarBack from './pages/CalendrierBack'
 
 import "./index.css"
 
@@ -23,6 +24,7 @@ root.render(
       <Route path = "/contact" element ={<Contact />} />
       <Route path = "/mentionslégales" element ={<Mentions />} /> 
       <Route path = "/photos" element ={<Photos />} /> 
+      <Route path="/calendar" element={<CalendarBack />} />
       <Route path = "*" element ={<Error404 />} /> 
     </Routes>
     <Footer />
