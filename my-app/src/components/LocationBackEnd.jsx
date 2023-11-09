@@ -53,8 +53,8 @@ const HouseRentalCalendarBackend = () => {
         />
       </div>
       <div className="availability-buttons">
-        <button onClick={() => handleToggleHouseAvailability(true)}>Rendre indisponible</button>
-        <button onClick={() => handleToggleHouseAvailability(false)}>Rendre disponible</button>
+        <button onClick={() => handleToggleHouseAvailability(true)}>Rendre disponible</button>
+        <button onClick={() => handleToggleHouseAvailability(false)}>Rendre toutes les dates indisponibles</button>
       </div>
     </div>
   );

@@ -10,7 +10,7 @@
 }
 
 .locked {
-  background-color: #F44336;
+  background-color: #4CAF50;
   color: white;
   cursor: not-allowed;
 }
