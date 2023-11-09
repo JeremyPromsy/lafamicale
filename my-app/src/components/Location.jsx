@@ -1,10 +1,18 @@
-import "../styles/location.css"
+import "../styles/location.css";
 import React, { useState, useEffect } from 'react';
 import Calendar from 'react-calendar';
 import axios from 'axios';
 
 const HouseRentalCalendarFrontend = () => {
   const [houseAvailability, setHouseAvailability] = useState({});
+ 
+  // Remplacez ces dates par les dates que vous voulez verrouiller
+  const lockedDates = 
+  [
+    '2023-11-15', 
+    '2023-11-16'
+  ]; 
+ 
 
   useEffect(() => {
     fetchData();
@@ -25,7 +33,12 @@ const HouseRentalCalendarFrontend = () => {
       <h2>Calendrier de location</h2>
       <div className="calendar">
         <Calendar
-          tileClassName={({ date }) => (houseAvailability[date.toISOString().slice(0, 10)] ? 'unavailable' : 'available')}
+          tileClassName={({ date }) => {
+            if (lockedDates.includes(date.toISOString().slice(0, 10))) {
+              return 'locked';
+            }
+            return houseAvailability[date.toISOString().slice(0, 10)] ? 'unavailable' : 'available';
+          }}
         />
       </div>
     </div>
