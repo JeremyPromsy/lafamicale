@@ -2,7 +2,6 @@ const express = require('express');
 const cors = require('cors');
 const app = express();
 const port = 9000;
-const fs = require('fs');
 
 app.use(cors());
 app.use(express.json());
@@ -29,9 +28,6 @@ app.post('/update_availability', (req, res) => {
     houseAvailability[date] = isUnavailable;
   });
 
-  // Enregistrez les données mises à jour dans le fichier JSON
-  fs.writeFileSync('./availabilityData.json', JSON.stringify(houseAvailability, null, 2));
-
   res.json({ success: true, isUnavailable });
 });
 
@@ -53,9 +49,6 @@ app.post('/delete_all_availability', (req, res) => {
   for (const date in houseAvailability) {
     houseAvailability[date] = false; // Marquer toutes les dates comme disponibles
   }
-
-  // Enregistrez les données mises à jour dans le fichier JSON
-  fs.writeFileSync('./availabilityData.json', JSON.stringify(houseAvailability, null, 2));
 
   res.json({ success: true });
 });
