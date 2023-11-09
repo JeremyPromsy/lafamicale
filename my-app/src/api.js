@@ -2,7 +2,7 @@ import axios from 'axios';
 
 export const updateHouseAvailability = async (selectedDates, isHouseUnavailable) => {
   try {
-    const formattedDates = selectedDates.map((date) => date);
+    const formattedDates = selectedDates.map((date) => date.toISOString().slice(0, 10));
     await axios.post('http://localhost:9000/update_availability', {
       dates: formattedDates,
       isUnavailable: isHouseUnavailable,

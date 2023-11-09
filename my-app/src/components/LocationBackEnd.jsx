@@ -54,10 +54,12 @@ const HouseRentalCalendarBackend = () => {
       </div>
       <div className="availability-buttons">
         <button onClick={() => handleToggleHouseAvailability(true)}>Rendre indisponible</button>
-        <button onClick={() => handleToggleHouseAvailability(false)}>Tout rendre disponible</button>
+        <button onClick={() => handleToggleHouseAvailability(false)}>Rendre disponible</button>
       </div>
     </div>
   );
 };
 
 export default HouseRentalCalendarBackend;
+
+

@@ -1,67 +1,63 @@
 const express = require('express');
 const cors = require('cors');
-const sqlite3 = require('sqlite3').verbose();
-const db = new sqlite3.Database(':memory:'); // Utilisez une base de données en mémoire pour cet exemple
 const app = express();
 const port = 9000;
+const fs = require('fs');
 
 app.use(cors());
 app.use(express.json());
 
-// Créez une table pour stocker les disponibilités de la maison
-db.serialize(() => {
-  db.run('CREATE TABLE IF NOT EXISTS houseAvailability (date TEXT, isUnavailable BOOLEAN)');
-});
+// Chargez les données de disponibilité depuis le fichier JSON
+let houseAvailability = {};
 
-app.get('/house_rental', (req, res) => {
-  // Récupérez les disponibilités de la maison depuis la base de données SQLite
-  db.all('SELECT * FROM houseAvailability', (err, rows) => {
-    if (err) {
-      return res.status(500).json({ success: false, message: 'Erreur lors de la récupération des disponibilités' });
-    }
+// Exemple : Marquer plusieurs dates comme disponibles
+// const datesDisponibles = ['2023-11-15', '2023-11-16', '2023-11-17'];
+// datesDisponibles.forEach((date) => {
+//   houseAvailability[date] = true; // Dates marquées comme disponibles
+// });
 
-    const houseAvailability = {};
-    rows.forEach((row) => {
-      houseAvailability[row.date] = row.isUnavailable;
-    });
+// Exemple : Marquer plusieurs dates comme indisponibles
+// const datesIndisponibles = ['2023-12-01', '2023-12-02', '2023-12-03'];
+// datesIndisponibles.forEach((date) => {
+//   houseAvailability[date] = false; // Dates marquées comme indisponibles
+// });
 
-    res.json(houseAvailability);
-  });
-});
-
+// Endpoint pour mettre à jour la disponibilité
 app.post('/update_availability', (req, res) => {
   const { dates, isUnavailable } = req.body;
-
-  // Mettez à jour les disponibilités dans la base de données SQLite
-  const stmt = db.prepare('INSERT OR REPLACE INTO houseAvailability (date, isUnavailable) VALUES (?, ?)');
   dates.forEach((date) => {
-    stmt.run(date, isUnavailable);
+    houseAvailability[date] = isUnavailable;
   });
-  stmt.finalize();
+
+  // Enregistrez les données mises à jour dans le fichier JSON
+  fs.writeFileSync('./availabilityData.json', JSON.stringify(houseAvailability, null, 2));
 
   res.json({ success: true, isUnavailable });
 });
 
+app.get('/house_rental', (req, res) => {
+  res.json(houseAvailability);
+});
+
 app.post('/delete_availability', (req, res) => {
   const { date } = req.body;
-
-  // Supprimez une disponibilité de la maison de la base de données SQLite
-  db.run('DELETE FROM houseAvailability WHERE date = ?', date, (err) => {
-    if (err) {
-      return res.status(500).json({ success: false, message: 'Erreur lors de la suppression de la disponibilité' });
-    }
+  if (houseAvailability[date] !== undefined) {
+    delete houseAvailability[date];
     res.json({ success: true });
-  });
+  } else {
+    res.status(404).json({ success: false, message: 'La date n\'existe pas' });
+  }
 });
 
 app.post('/delete_all_availability', (req, res) => {
-  // Marquez toutes les dates comme disponibles dans la base de données SQLite
-  db.run('UPDATE houseAvailability SET isUnavailable = ?', false, (err) => {
-    if (err) {
-      return res.status(500).json({ success: false, message: 'Erreur lors de la mise à jour de la disponibilité' });
-    }
-    res.json({ success: true });
-  });
+  for (const date in houseAvailability) {
+    houseAvailability[date] = false; // Marquer toutes les dates comme disponibles
+  }
+
+  // Enregistrez les données mises à jour dans le fichier JSON
+  fs.writeFileSync('./availabilityData.json', JSON.stringify(houseAvailability, null, 2));
+
+  res.json({ success: true });
 });
 
 app.listen(port, () => {
