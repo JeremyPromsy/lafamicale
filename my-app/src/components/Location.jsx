@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import Calendar from 'react-calendar';
 import axios from 'axios';
 
+
 const HouseRentalCalendarFrontend = () => {
   const [houseAvailability, setHouseAvailability] = useState({});
  
@@ -41,6 +42,7 @@ const HouseRentalCalendarFrontend = () => {
           }}
         />
       </div>
+      <p>Les dates afficheées en vertes sont les dates où la maison est disponible.</p>
     </div>
   );
 };

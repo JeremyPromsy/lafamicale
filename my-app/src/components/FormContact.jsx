@@ -5,7 +5,6 @@ import emailjs from '@emailjs/browser';
 const ServiceID = "service_n6f1yqc";
 const TemplateID = "Lafamicale-template";
 const PublicKey = "A8cBtp8O8D3ahNq6u";
-console.log(ServiceID, TemplateID, PublicKey)
 
 function App() { 
     const form = useRef();
