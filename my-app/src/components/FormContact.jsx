@@ -38,9 +38,9 @@ function App() {
                     <input className='champMail' placeholder='Votre adresse mail*' name='user_email' /> 
                 </div> 
                 <div className='messageAuteur'> 
-                    <textarea className='message' type='text' placeholder='Votre message ici'> </textarea> 
+                    <textarea className='message' placeholder='Votre message ici' name='text' > </textarea> 
                 </div> 
-                    <input className='boutonEnvoyer' value='Envoyer' id='input-submit' />
+                    <input className='boutonEnvoyer' value='Send' id='input-submit' placeholder='Envoyer' type="submit" />
             </form>
         </div> 
     ); 
