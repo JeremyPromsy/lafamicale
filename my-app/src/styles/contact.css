@@ -1,6 +1,7 @@
 .pageInfo {
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 .contactPage {
@@ -34,27 +35,16 @@ p{
     border-color: black;
 }
 
+
+.contactGoogle {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
 .Google{
     width:600px;
     height:450px;
     border-color:rgb(234,197,113);
+    display: flex;
+    justify-content: center;
 }
-
-
-
-/* 
-<Formik
-        initialValues={{ name: "", email: "", message:""}}
-        onSubmit={async (values) => {
-          await new Promise((resolve) => setTimeout(resolve, 500));
-          alert(JSON.stringify(values, null, 2));
-        }}
-      >
-        <Form>
-          <Field name="name" type="text" required />
-          <Field name="email" type="email" required/>
-          <Field name="message" type="text" required/>
-          <button type="submit">Envoyer</button>
-        </Form>
-      </Formik>
-*/

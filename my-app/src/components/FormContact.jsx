@@ -31,16 +31,16 @@ function App() {
 
     return ( 
         <div> 
-            <h1>Contact Form</h1> 
-            <form className='cf' ref={form} onSubmit={sendEmail}>
-                <div className='half left cf'> 
-                    <input type='text' placeholder='Name' name='user_name' /> 
-                    <input type='email' placeholder='Email address' name='user_email' /> 
+            <h2>Contact Form</h2> 
+            <form className='formulaire' ref={form} onSubmit={sendEmail}>
+                <div className='champNomMail'> 
+                    <input className='champNom' placeholder='Votre nom*' name='user_name' /> 
+                    <input className='champMail' placeholder='Votre adresse mail*' name='user_email' /> 
                 </div> 
-                <div className='half right cf'> 
-                    <textarea name='message' type='text' placeholder='Message'></textarea> 
+                <div className='messageAuteur'> 
+                    <textarea className='message' type='text' placeholder='Votre message ici'> </textarea> 
                 </div> 
-                    <input type='submit' value='Submit' id='input-submit' />
+                    <input className='boutonEnvoyer' value='Envoyer' id='input-submit' />
             </form>
         </div> 
     ); 
