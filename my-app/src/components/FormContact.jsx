@@ -1,7 +1,6 @@
 import React, { useRef } from 'react';
 import "../styles/formcontact.css"
 import emailjs from '@emailjs/browser';
-import "../"
 
 const ServiceID = "service_n6f1yqc";
 const TemplateID = "Lafamicale-template";
