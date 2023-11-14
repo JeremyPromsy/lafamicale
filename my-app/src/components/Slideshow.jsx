@@ -30,6 +30,12 @@ const Slideshow = () => {
 
     return (
         <section id="gallery" className="gallery"> 
+        <div className="galleriePhoto">
+            <div className="fleche flecheGaucheDiv" onClick={prevSlide}>
+            {pictures.length > 1 && (
+                <img src={flecheGauche} alt="left arrow" className="arrow-left" />
+            )}
+            </div>
             <div className="photos">
             {pictures.map((img, index) => {
                 return (
@@ -40,14 +46,11 @@ const Slideshow = () => {
                 );
             })}
             </div>
-            <div className="fleche">
+            <div className="fleche flecheDroiteDiv" onClick={nextSlide} >
             {pictures.length > 1 && (
-                <img src={flecheGauche} alt="left arrow" className="arrow-left" onClick={prevSlide}
-                />
+                <img src={flecheDroite} alt="right arrow" className="arrow-right" />
             )}
-            {pictures.length > 1 && (
-                <img src={flecheDroite} alt="right arrow" className="arrow-right" onClick={nextSlide}/>
-            )}
+            </div>
             </div>
         </section>
     );

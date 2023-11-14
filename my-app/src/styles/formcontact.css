@@ -9,7 +9,7 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    margin: 20px 0;
+    margin-bottom: 10px;
 } 
 
 .champMail, .champNom, .champObjet { 
