@@ -19,23 +19,37 @@ function EspacePhoto () {
     return (
     <div className="photosGal">
     <div id="galeriePhoto" className="galeriePhoto"> 
+    <div className="titre1GalPhoto">
+    <h1>Galerie photos</h1>
+    </div>
+    <h2>Le salon</h2>
         <div className="galeriePhoto1">
         <SlideshowLightbox className="container1">
             <img className="photo photo1 w-full rounded" src= {Img1} alt ="Salon La Famicale" /> 
             <img className="photo photo2 w-full rounded" src= {Img2} alt ="Salon La Famicale" />
         </SlideshowLightbox>
         </div>
+        <h2>Cuisine et salle d'eau</h2>
         <div className="galeriePhoto2">
         <SlideshowLightbox className="container2">
             <img className="photo photo3 w-full rounded" src= {Img3} alt ="Cuisine La Famicale" />
             <img className="photo photo5 w-full rounded" src= {Img5} alt ="Salle d'eau La Famicale" />
         </SlideshowLightbox>
         </div>
+        <h2>La chambre parentale</h2>
         <div className="galeriePhoto3">
         <SlideshowLightbox className="container3">
             <img className="photo photo4 w-full rounded" src= {Img4} alt ="Chambre Parentale La Famicale" />
             <img className="photo photo6 w-full rounded" src= {Img6} alt ="Terrasse La Famicale" />
         </SlideshowLightbox>
+        </div>
+        <div className="texteGaleriePhoto4">
+        <div className="texteGaleriePhoto4-1">
+        <h2>Les chambres d'amis</h2>
+        </div>
+        <div className="texteGaleriePhoto4-2">
+        <h2>Partie commune</h2>
+        </div>
         </div>
         <div className="galeriePhoto4">
         <div className="galeriePhoto5">
@@ -44,9 +58,11 @@ function EspacePhoto () {
             <img className="photo photo8 w-full rounded" src= {Img8} alt ="Chambre amis La Famicale" />
         </SlideshowLightbox>
         </div>
+        <div className="galeriePhoto6">
         <SlideshowLightbox className="container5">
             <img className="photo photo9 w-full rounded" src= {Img9} alt ="Couloir La Famicale" />
         </SlideshowLightbox>
+        </div>
         </div>
     </div>
     </div>
