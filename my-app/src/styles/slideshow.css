@@ -26,9 +26,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(218,117,51,0.2);
-    height: 470px;
-    margin-top: 15px;
+    background-color: rgba(86,96,111,0.2);
+    height: 490px;
+    margin-top: 5px;
 }
 
 .flecheGaucheDiv{
