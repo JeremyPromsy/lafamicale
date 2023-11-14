@@ -1,0 +1,16 @@
+
+
+/* Google*/
+.contactGoogle {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.Google{
+      width:600px;
+      height:450px;
+      border-color:rgb(234,197,113);
+      display: flex;
+      justify-content: center;
+}
