@@ -11,6 +11,7 @@ function Home () {
            <Slideshow />
            <Description />
            <Location />
+           <h2>Contactez-nous !</h2>
            <FormContact />
         </div>
     )

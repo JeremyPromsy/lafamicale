@@ -5,10 +5,10 @@ import FormContact from "../components/FormContact"
 function Contact() {
   return (
     <div className="pageInfo">
-    <FormContact />
     <div className="contactPage">
       <div className="contactDiv">
         <h2>Contactez-nous !</h2>
+        <FormContact />
         <p>Ou envoyez un mail directement, si vous le souhaitez en cliquant sur le bouton, ci-dessous.</p>
         <p><a href="mailto:lafamicale@gmail.com"  aria-label="contacter l'agence par mail"><button className="buttonContact">Nous joindre </button></a></p>
       </div>
