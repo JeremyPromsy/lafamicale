@@ -1,16 +1,42 @@
+.carteGoogle{
+    display: flex;
+    justify-content: center;
+}
 
+.contentDescription{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.infos{
+    display: flex;
+    justify-content: center;
+    margin:5px 0;
+}
+
+.info{
+    margin-top:10px;
+}
+
+.content{
+    z-index: auto;
+}
 
 /* Google*/
 .contactGoogle {
     display: flex;
     justify-content: center;
-    margin: 20px 0;
+    align-items: center;
+    margin: 5px 0;
+    width:600px;
 }
 
 .Google{
-      width:600px;
+      width:100%;
       height:450px;
-      border-color:rgb(234,197,113);
+      border-color:rgba(218,117,51,1);
       display: flex;
       justify-content: center;
+      border-radius: 10px;
 }

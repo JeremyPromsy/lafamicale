@@ -1,8 +1,8 @@
 import "../styles/description.css";
 import 'lightbox.js-react/dist/index.css';
 import React, { useState } from 'react';
-import haut from "../assets/FlecheHaut.png";
-import bas from "../assets/FlècheBas.png";
+import haut from "../assets/angleCarreHaut.png";
+import bas from "../assets/angleCarreBas.png";
 
 function Description({ title, content, open }) {
     const [isOpen, setIsOpen] = useState(open);
@@ -25,6 +25,7 @@ function Description({ title, content, open }) {
     };
 
     return (
+        <div className="infos">
         <div className={isOpen ? "collapseFermé" : "collapseOuvert"}>
             <div className="container">
                 <h3>{title}</h3>
@@ -34,10 +35,9 @@ function Description({ title, content, open }) {
                 />
             </div>
             {isOpen && (
-                <div>
-                    {displayContent()}
-                </div>
+                <div> {displayContent()} </div>
             )}
+        </div>
         </div>
     );
 }
