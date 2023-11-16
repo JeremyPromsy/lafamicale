@@ -1,0 +1,19 @@
+.mentionsLégales{
+    padding: 0 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.mentionsLégales p{
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+
+.mentionsLégales h1{
+    text-align: center;
+}
+
+.mentionsLégales h4{
+    text-align: center;
+}
