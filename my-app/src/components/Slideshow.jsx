@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import flecheDroite from "../assets/FlècheDroite.png";
+import flecheDroite from "../assets/FlècheDroite-2.png";
 import flecheGauche from "../assets/FlècheGauche.png";
 import "../styles/slideshow.css"
 import Img1 from "../Images/salon-1-LaFamicale.jpg"
