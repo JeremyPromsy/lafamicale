@@ -6,19 +6,14 @@ import "../styles/nav.css"
 function Navbar() {
     return (
         <div className="nav">
+            <div className="nav-links">
+                <NavLink to="/photos">Galerie Photos</NavLink>
+            </div>
             <div className="logo">
             <NavLink to="/"><img className="logo-img" src= {logoNav} alt ="logo LaFamicale" /> </NavLink>
             </div>
-            <div className="navlinks">
-            <div className="nav-links nav-links1">
-                <NavLink to="/photos">Galerie Photos</NavLink>
-            </div>
-            <div className="nav-links nav-links2">
-                <NavLink to="/informations">Informations</NavLink>
-            </div>
-            <div className="nav-links nav-links3">
+            <div className="nav-links">
                 <NavLink to="/contact">Contact</NavLink>
-            </div>
             </div>
         </div>
     )

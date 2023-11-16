@@ -5,11 +5,6 @@
     flex-direction: column;
 }
 
-.galleriePhoto {
-    display: flex;
-    justify-content: center;
-}
-
 .photos{
     display: flex;
     justify-content: center;
@@ -17,32 +12,25 @@
 
 .gallery-image{
     height: 500px;
-    width: 650px;
+    width: 700px;
     object-fit:cover;
-    border-radius: 10px;
 }
 
 .fleche{
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: rgba(86,96,111,0.2);
-    height: 490px;
-    margin-top: 5px;
-}
-
-.flecheGaucheDiv{
-    border-radius: 150px 0 0 150px ;
-    margin-right: -1px;
-}
-
-.flecheDroiteDiv{
-    border-radius: 0 150px 150px 0;
-    margin-left: -1px;
+    margin-top: -4px;
 }
 
 .arrow-left, .arrow-right {
     height: 50px;
-    width: 50px;
-    padding: 0 5px;
+    width: 100px;
+}
+
+.arrow-left {
+    padding-right: 50px;
+}
+  
+.arrow-right {
+    padding-left: 50px;
 }

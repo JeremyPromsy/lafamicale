@@ -3,7 +3,3 @@
     justify-content: center;
     flex-direction: column;
 }
-
-.calendrierHome ,.contactHome, .imagesHome {
-    margin: 10px 0;
-}

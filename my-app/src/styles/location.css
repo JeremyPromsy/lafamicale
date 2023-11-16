@@ -3,7 +3,7 @@ h2, p {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 10px 0;
+  margin: 20px 0;
 }
 
 
@@ -22,8 +22,7 @@ h2, p {
   color: rgba(218,117,51,1);
 }
 .locked {
-  color: White;
-  box-shadow: inset 30px 30px 30px 30px #4CAF50;
+  color: #4CAF50;
 }
 
 .react-calendar__navigation {
@@ -62,7 +61,6 @@ h2, p {
   margin-top: 8px;
   text-decoration: none;
  }
-
 
  .react-calendar__month-view__days__day {
   border-radius: 50%;
@@ -129,7 +127,7 @@ h2, p {
 .react-calendar__tile {
   max-width: 100%;
   text-align: center;
-  padding: 10px 15px;
+  padding: 0.75em 0.5em;
   background: none;
   text-transform:capitalize;
 }

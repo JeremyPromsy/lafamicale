@@ -3,25 +3,20 @@
     justify-content: center;
     padding-top: 5px;
     padding-bottom: 5px;
+    background-color:rgba(116,116,125,1)
 }
 
 .galeriePhoto{
     display: flex;
     flex-direction: column;
     padding: 2px;
-    background: #f1f1f1;
-    border-radius: 10px;
-}
-
-h1 {
-    color: rgba(86,96,111,1);
-    text-align: center;
+    background-color: rgb(234,197,113);
 }
 
 .photo{
     object-fit:cover;
     margin:2px;
-    border-radius: 10px;
+    border: black;
 }
 
 .galeriePhoto1{
@@ -37,7 +32,7 @@ h1 {
 }
 
 .photo2{
-    max-width: 498px;
+    max-width: 500px;
     max-height: 500px;
 }
 
@@ -45,17 +40,17 @@ h1 {
     display: flex;
     justify-content: center;
     max-width: 1006px;
-    max-height: 500px;
+    max-height: 375px;
 }
 
 .photo3{
-    width: 300px;
-    height: 400px;
+    max-width: 300px;
+    max-height: 500px;
 }
 
 .photo5{
-    width: 698px;
-    height: 400px;
+    width: 700px;
+    height: 371px;
 }
 
 .galeriePhoto3{
@@ -66,12 +61,12 @@ h1 {
 }
 
 .photo4{
-    max-width: 499px;
+    max-width: 500px;
     max-height: 500px;
 }
 
 .photo6{
-    max-width: 499px;
+    max-width: 500px;
     max-height: 500px;
 }
 
@@ -98,42 +93,9 @@ h1 {
 }
 
 .photo9{
-    max-width: 298px;
-    height: 498px;
-}
-
-.texteGaleriePhoto4{
-    display: flex;
-    justify-content: space-around;
-}
-
-.texteGaleriePhoto4-1{
-    width: 700px;
-}
-.texteGaleriePhoto4-2{
-    width: 298px;
+    max-width: 300px;
+    max-height: 500px;
 }
 
 
-.photo:hover {
-	opacity: 1;
-	-webkit-animation: flash 1.5s;
-	animation: flash 3.5s;
-}
-@-webkit-keyframes flash {
-	0% {
-		opacity: .4;
-	}
-	100% {
-		opacity: 1;
-	}
-}
-@keyframes flash {
-	0% {
-		opacity: .4;
-	}
-	100% {
-		opacity: 1;
-	}
-}
 

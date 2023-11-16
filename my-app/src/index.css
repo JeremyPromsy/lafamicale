@@ -2,7 +2,7 @@
 
 html, body { background: #f1f1f1; } 
 
-body, textarea, input, button {
+body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -11,8 +11,4 @@ body, textarea, input, button {
 
 code {
   font-family: 'Montserrat', sans-serif;
-}
-
-h1,h2, h3{
-  margin: 10px 0;
 }
