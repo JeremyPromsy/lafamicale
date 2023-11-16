@@ -14,8 +14,11 @@ h2 {
     margin: 0;
 }
 
-p{
+.contactDiv  p{
     margin: 0;
+    transform: translateY(50px);
+    opacity: 0;
+    animation: entrance-effect 3000ms forwards;
 }
 
 .contactDiv {
@@ -34,6 +37,9 @@ p{
     border-radius: 15px;
     border: none;
     margin: 20px 0;
+    transform: translateY(50px);
+    opacity: 0;
+    animation: entrance-effect 4000ms forwards;
 }
 
 .boutonMail{
@@ -45,5 +51,15 @@ button {
     font-size: 14px;
 }
 
+@keyframes entrance-effect {
+    0% {
+      transform: translateY(30px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+}
 
 

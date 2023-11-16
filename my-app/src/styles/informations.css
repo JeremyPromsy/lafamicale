@@ -30,6 +30,10 @@
     align-items: center;
     margin: 5px 0;
     width:600px;
+    box-shadow: 0px 5px 10px 0px rgb(0 0 0 / 10%);
+    transform: translateY(30px);
+    opacity: 0;
+    animation: entrance-effect 3000ms forwards;
 }
 
 .Google{
@@ -39,4 +43,16 @@
       display: flex;
       justify-content: center;
       border-radius: 10px;
+}
+
+
+@keyframes entrance-effect {
+    0% {
+      transform: translateY(30px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
 }
