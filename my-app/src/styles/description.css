@@ -3,12 +3,13 @@
     border-radius: 5px;
     color: white;
     margin-top: -10px;
-    padding: 20px;
-    font-size: 14px;
+    padding: 20px 20px 4px 20px;
+    font-size: 16px;
     position: relative;
     z-index: 1;
     width: 760px;
-    text-align: justify;
+    text-align: center;
+    line-height: 25px;
 }
 
 /*.collapseFermé ul {
@@ -45,7 +46,7 @@
 }
 
 .container h3 {
-    font-size: 16px;
+    font-size: 20px;
     text-align: center;
     flex: 1;
     padding-left: 40px;

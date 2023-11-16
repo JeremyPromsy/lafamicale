@@ -9,11 +9,49 @@ function Infos () {
                     <h1>Plus d'informations sur la maison</h1>
                 </div>
                 <div className="contentDescription">
-                    <Description className="desc desc1" title = {"Intérieur"} content ={"Maison de "} />
-                    <Description className="desc desc2" title = {"Extérieur"} content = {"La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entraînera une exclusion de notre plateforme."} />  
-                    <Description className="desc desc3" title = {"Equipements disponibles"} content = {"Nos équipes se tiennent à votre disposition pour vous fournir une expérience parfaite. N'hésitez pas à nous contacter si vous avez la moindre question."} />
-                    <Description className="desc desc4" title = {"Activités proches"} content = {"La sécurité est la priorité de Kasa. Aussi bien pour nos hôtes que pour les voyageurs, chaque logement correspond aux critères de sécurité établis par nos services. En laissant une note aussi bien à l'hôte qu'au locataire, cela permet à nos équipes de vérifier que les standards sont bien respectés. Nous organisons également des ateliers sur la sécurité domestique pour nos hôtes."} />
-                    <Description className="desc desc5" title = {"Localisation"} content = {"La sécurité est la priorité de Kasa. Aussi bien pour nos hôtes que pour les voyageurs, chaque logement correspond aux critères de sécurité établis par nos services. En laissant une note aussi bien à l'hôte qu'au locataire, cela permet à nos équipes de vérifier que les standards sont bien respectés. Nous organisons également des ateliers sur la sécurité domestique pour nos hôtes."} />
+                    <Description className="desc desc1" title = {"Intérieur"} 
+                    content ={
+                    <p>Maison de 110m2
+                    <br></br>3 chambres dont une suite parentale avec sa baignoire
+                    <br></br>Un salon-salle à manger
+                    <br></br>Grande cuisine
+                    <br></br>Une salle d'eau
+                    <br></br>Toilettes séparées 
+                    </p>
+                    } />
+                    <Description className="desc desc2" title = {"Extérieur"} 
+                    content ={
+                    <p>Deux terrasses, une attenante à la chambre parentale
+                    <br></br>Une pergola
+                    <br></br>Une douche extérieur
+                    <br></br>Un terrain de pétanque 
+                    <br></br>Parking plusieurs places de véhicule 
+                    </p>
+                    } /> 
+                    <Description className="desc desc3" title = {"Equipements disponibles"} 
+                    content ={
+                    <p>Barbecue disponible
+                    <br></br>Vélos mis à disposition
+                    <br></br>Boules de pétanque
+                    </p>
+                    } /> 
+                    <Description className="desc desc4" title = {"Activités proches"} 
+                    content ={
+                    <p>Plage à 15 minutes à pied
+                    <br></br>Ecoles de surf à proximité
+                    <br></br>Loueurs de vélo à proximité
+                    <br></br>Restaurants à 5 minutes à pied
+                    <br></br>Port des salines à 10 minutes à pied
+                    </p>
+                    } /> 
+                    <Description className="desc desc5" title = {"Localisation"} 
+                    content ={
+                    <p>La maison est située à Grand-Village-Plage, sur l'île d'Oléron
+                    <br></br>Situé entre Dolus et Saint-Trojan
+                    <br></br>Proche des plages 
+                    <br></br>Supermarché proche
+                    </p>
+                    } /> 
                 </div>
                 <div className="carteGoogle">
                     <div className="contactGoogle">
