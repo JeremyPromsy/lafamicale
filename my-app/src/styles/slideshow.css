@@ -48,5 +48,52 @@
 }
 
 @media screen and (max-width:767px){
+    .gallery-image{
+        height: 300px;
+        width: 450px;
+    }
+
+    .galleriePhoto {
+        align-items: center;
+    }
+
+    .fleche{
+        background-color: rgba(86,96,111,1);
+        height: 50px;
+        margin-top: 0;
+        z-index: 10;
+    }
+
+    .flecheGaucheDiv{
+        border-radius: 35% ;
+        margin-right: -15px;
+    }
     
+    .flecheDroiteDiv{
+        border-radius: 35%;
+        margin-left: -15px;
+    }
+    
+    .arrow-left, .arrow-right {
+        height: 30px;
+        width: 30px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .gallery-image{
+        height: 200px;
+        width: 300px;
+    }
+
+    .arrow-left, .arrow-right {
+        height: 20px;
+        width: 20px;
+    }
+
+    .fleche{
+        height: 30px;
+        margin-top: 0;
+        z-index: 10;
+    }
 }

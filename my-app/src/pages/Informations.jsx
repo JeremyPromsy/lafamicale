@@ -12,7 +12,8 @@ function Infos () {
                     <Description className="desc desc1" title = {"Intérieur"} 
                     content ={
                     <p>Maison de 110m2
-                    <br></br>3 chambres dont une suite parentale avec sa baignoire
+                    <br></br>3 chambres  
+                    <br></br>Suite parentale et sa baignoire
                     <br></br>Un salon-salle à manger
                     <br></br>Grande cuisine
                     <br></br>Une salle d'eau
@@ -21,11 +22,11 @@ function Infos () {
                     } />
                     <Description className="desc desc2" title = {"Extérieur"} 
                     content ={
-                    <p>Deux terrasses, une attenante à la chambre parentale
+                    <p>Deux terrasses
                     <br></br>Une pergola
                     <br></br>Une douche extérieur
                     <br></br>Un terrain de pétanque 
-                    <br></br>Parking plusieurs places de véhicule 
+                    <br></br>Parking plusieurs places 
                     </p>
                     } /> 
                     <Description className="desc desc3" title = {"Equipements disponibles"} 
@@ -41,7 +42,7 @@ function Infos () {
                     <br></br>Ecoles de surf à proximité
                     <br></br>Loueurs de vélo à proximité
                     <br></br>Restaurants à 5 minutes à pied
-                    <br></br>Port des salines à 10 minutes à pied
+                    <br></br>Port des salines à 10 minutes
                     </p>
                     } /> 
                     <Description className="desc desc5" title = {"Localisation"} 

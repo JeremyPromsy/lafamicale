@@ -3,7 +3,8 @@ h2, p {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 10px 0;
+  margin: 10px;
+  text-align: center;
 }
 
 .calendar {
@@ -143,5 +144,7 @@ h2, p {
 }
 
 @media screen and (max-width:767px){
-    
+  .calendar {
+    margin: 0 10px;
+  }
 }
