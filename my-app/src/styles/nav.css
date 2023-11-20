@@ -4,8 +4,14 @@
   padding: 0;
   width: 100%;
   height: 120px;
+  position: fixed;
+  z-index: 2000;
   background: rgba(218,117,51,1);
   background: linear-gradient(20deg, rgba(234,197,113,1) 3%, rgba(231,161,114,1) 22%, rgba(218,117,51,1) 39%, rgba(116,116,125,1) 58%, rgba(86,96,111,1) 76%, rgba(32,54,65,1) 89%);
+}
+
+.trouNav{
+  height: 120px;
 }
 
 .classNav {
@@ -27,7 +33,6 @@
   height: 100%;
 }
 
-/* Styles des liens de navigation */
 .nav-links {
   margin-top: auto;
   list-style: none;
@@ -44,20 +49,19 @@
   text-decoration: underline;
 }
 
-.menuIcon{
+.menuIcon {
   height: 40px;
   width: 40px;
   color: inherit;
   background: transparent;
   border: none;
-  display: none;
+  position:fixed; 
+  top: 30px; 
+  left: 15px; 
+  z-index: 1000;
 }
 
 @media screen and (min-width:768px){
-  .menuIcon{
-    display: none;
-  }
-
   .nav-links0{
     display: none;
   }
@@ -65,6 +69,9 @@
 
 @media screen and (max-width:950px){
   .navbar {
+    height: 100px;
+  }
+  .trouNav{
     height: 100px;
   }
 
@@ -96,10 +103,6 @@
     right:0;
   }
 
-  .logo-img {
-    z-index: 1001;
-  }
-
   .nav-links::after{
     content: "";
     display: block;
@@ -120,19 +123,6 @@
 
   .nav-links a {
     font-size: 28px;
-  }
-
-  .menuIcon {
-    height: 40px;
-    width: 40px;
-    color: inherit;
-    background: transparent;
-    border: none;
-    display: block;
-    position: fixed; 
-    top: 30px; 
-    left: 15px; 
-    z-index: 1000;
   }
   
   .menuIcon:hover {
@@ -182,6 +172,9 @@
 
 @media screen and (max-width:600px){
   .navbar {
+    height: 80px;
+  }
+  .trouNav{
     height: 80px;
   }
 

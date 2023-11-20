@@ -15,11 +15,17 @@ function Navbar() {
   };
 
   return (
+    <div className="navigation">
     <div className={`navbar ${showLinks ? "showNav" : "hideNav"}`}>
       <div className="logo">
         <NavLink to="/" onClick={closeMenu}>
           <img className="logo-img" src={logoNav} alt="logo LaFamicale" />
         </NavLink>
+      </div>
+      <div className="navBurger">
+      <button className="menuIcon" onClick={handleShowLinks}>
+        <span className="burgerBar"></span>
+      </button>
       </div>
       <ul className="classNav">
         <li className="nav-links nav-links0">
@@ -43,9 +49,8 @@ function Navbar() {
           </NavLink>
         </li>
       </ul>
-      <button className="menuIcon" onClick={handleShowLinks}>
-        <span className="burgerBar"></span>
-      </button>
+    </div>
+    <div className="trouNav"></div>
     </div>
   );
 }

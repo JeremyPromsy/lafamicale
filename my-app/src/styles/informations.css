@@ -40,7 +40,7 @@
 .Google{
       width:100%;
       height:450px;
-      border-color:rgba(218,117,51,1);
+      border: 0.5px solid rgba(218,117,51,1);
       display: flex;
       justify-content: center;
       border-radius: 10px;

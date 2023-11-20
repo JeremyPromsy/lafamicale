@@ -27,7 +27,7 @@ form{
     padding: 10px 0;
     margin: 10px 0;
     text-indent: 10px;
-    border: solid rgba(218,117,51,1);
+    border: 0.5px solid rgba(218,117,51,1);
     transform: translateY(50px);
     opacity: 0;
     animation: entrance-effect 1000ms forwards;
@@ -42,7 +42,7 @@ form{
     height:200px;
     margin: 10px 0;
     text-indent: 10px;
-    border: solid rgba(218,117,51,1);
+    border: 0.5px solid rgba(218,117,51,1);
     transform: translateY(50px);
     opacity: 0;
     animation: entrance-effect 1500ms forwards;
@@ -51,7 +51,7 @@ form{
 .boutonEnvoyer { 
     color: white; 
     background: rgba(218,117,51,1);
-    border: solid rgba(32,54,65,1);
+    border: 0.5px solid rgba(32,54,65,1);
     text-align: center;
     padding: 20px 0;
     height: 30px;
