@@ -18,7 +18,7 @@ function Navbar() {
     <div className="navigation">
     <div className={`navbar ${showLinks ? "showNav" : "hideNav"}`}>
       <div className="logo">
-        <NavLink to="/" onClick={closeMenu}>
+        <NavLink to="/">
           <img className="logo-img" src={logoNav} alt="logo LaFamicale" />
         </NavLink>
       </div>
