@@ -125,3 +125,27 @@
         width: 560px;
     }
 }
+
+
+@media screen and (max-width:600px){
+    .container {
+        height: 70px;
+        margin: 5px 0px;
+        padding:5px 0px;
+        width: 347px;
+    }
+
+    .collapseFermé p {
+        margin-top: -20px;
+        padding-top: 30px;
+        font-size: 18px;
+        width: 310px;
+    }
+
+    .collapseFermé ul{
+        font-size: 12px;
+        padding-top: 30px;
+        margin-top: -20px;
+        width: 310px;
+    }
+}
