@@ -3,17 +3,32 @@ import React, { useState, useEffect } from 'react';
 import Calendar from 'react-calendar';
 import axios from 'axios';
 
-
 const HouseRentalCalendarFrontend = () => {
   const [houseAvailability, setHouseAvailability] = useState({});
  
-  // Remplacez ces dates par les dates que vous voulez verrouiller
-  const lockedDates = 
-  [
-    '2023-11-15', 
-    '2023-11-16'
+  const generateDates = (startDate, endDate) => {
+    const dates = [];
+    let currentDate = new Date(startDate);
+    endDate = new Date(endDate);
+
+    while (currentDate <= endDate) {
+      dates.push(currentDate.toISOString().slice(0, 10));
+      currentDate.setDate(currentDate.getDate()+1);
+    }
+
+    return dates;
+  };
+
+
+// Remplacez ces dates par les dates que vous voulez verrouiller
+// Attention J-1, pour les dates seules, par rapport au vraies dates, si on veut ouvrir le 3, il faut écrire le 2 (exemple)
+// Entre parenthèses pour vérouiller des péridodes et generate Dates
+  const lockedDates = [
+    ...generateDates('2023-11-15', '2023-11-18'),
+    ...generateDates('2024-08-1', '2024-09-1'), 
+    '2024-01-01',
+    '2024-02-02'
   ]; 
- 
 
   useEffect(() => {
     fetchData();
