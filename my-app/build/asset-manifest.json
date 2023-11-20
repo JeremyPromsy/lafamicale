@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.b41ba97b.css",
-    "main.js": "./static/js/main.2c927e04.js",
+    "main.css": "./static/css/main.539a22b0.css",
+    "main.js": "./static/js/main.5db227e5.js",
     "static/media/chambre-amis-LaFamicale.png": "./static/media/chambre-amis-LaFamicale.efd51bd59dad862c8386.png",
     "static/media/cuisine-cor--LaFamicale.jpg": "./static/media/cuisine-cor--LaFamicale.36f0ac4ee54b58613fdc.jpg",
     "static/media/chambre-amis-2-LaFamicale.jpg": "./static/media/chambre-amis-2-LaFamicale.2f0eef49bd8947d349d3.jpg",
@@ -15,11 +15,11 @@
     "static/media/angleCarreBas.png": "./static/media/angleCarreBas.9e916d5f89f703c31012.png",
     "static/media/angleCarreHaut.png": "./static/media/angleCarreHaut.c338c694433fd30591b6.png",
     "index.html": "./index.html",
-    "main.b41ba97b.css.map": "./static/css/main.b41ba97b.css.map",
-    "main.2c927e04.js.map": "./static/js/main.2c927e04.js.map"
+    "main.539a22b0.css.map": "./static/css/main.539a22b0.css.map",
+    "main.5db227e5.js.map": "./static/js/main.5db227e5.js.map"
   },
   "entrypoints": [
-    "static/css/main.b41ba97b.css",
-    "static/js/main.2c927e04.js"
+    "static/css/main.539a22b0.css",
+    "static/js/main.5db227e5.js"
   ]
 }
