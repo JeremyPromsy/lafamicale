@@ -12,6 +12,12 @@
     margin-bottom: 10px;
 } 
 
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .champMail, .champNom, .champObjet { 
     border: 0; 
     outline: 0; 
@@ -73,4 +79,28 @@
       transform: translateY(0);
       opacity: 1;
     }
+}
+
+@media screen and (max-width:767px){
+    .champMail, .champNom, .champObjet { 
+        max-width:650px;
+    } 
+}
+
+@media screen and (max-width:600px){
+    .champMail, .champNom, .champObjet, .message, button { 
+        max-width:450px;
+    } 
+}
+
+@media screen and (max-width:500px){
+    .champMail, .champNom, .champObjet, .message, button { 
+        max-width:400px;
+    } 
+}
+
+@media screen and (max-width:400px){
+    .champMail, .champNom, .champObjet, .message, button { 
+        max-width:350px;
+    } 
 }

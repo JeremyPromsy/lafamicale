@@ -8,6 +8,7 @@
 .mentionsLégales p{
     font-size: 14px;
     padding-bottom: 15px;
+    color: black;
 }
 
 .mentionsLégales h1{
@@ -16,4 +17,8 @@
 
 .mentionsLégales h4{
     text-align: center;
+}
+
+@media screen and (max-width:767px){
+    
 }

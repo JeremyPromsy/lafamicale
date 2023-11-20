@@ -6,7 +6,6 @@ h2, p {
   margin: 10px 0;
 }
 
-
 .calendar {
   display: flex;
   align-items: center;
@@ -141,4 +140,8 @@ h2, p {
 .react-calendar__tile--now:enabled:hover,
 .react-calendar__tile--now:enabled:focus {
   background: rgba(218,117,51,1);
+}
+
+@media screen and (max-width:767px){
+    
 }

@@ -63,6 +63,7 @@
         border-radius: 5px;
         margin: 10px 0px;
         padding:5px 0px;
+        width: 297px;
     }
     
     .container h3 {
@@ -79,12 +80,14 @@
         margin-top: -15px;
         padding-top: 30px;
         font-size: 12px;
+        width: 260px;
     }
 
     .collapseFermé ul{
         font-size: 12px;
         padding-top: 30px;
         margin-top: -15px;
+        width: 260px;
     }
 }
 
@@ -99,3 +102,26 @@
     }
 }
 
+
+@media screen and (max-width:767px){
+    .container {
+        height: 70px;
+        margin: 5px 0px;
+        padding:5px 0px;
+        width: 597px;
+    }
+
+    .collapseFermé p {
+        margin-top: -20px;
+        padding-top: 30px;
+        font-size: 18px;
+        width: 560px;
+    }
+
+    .collapseFermé ul{
+        font-size: 12px;
+        padding-top: 30px;
+        margin-top: -20px;
+        width: 560px;
+    }
+}

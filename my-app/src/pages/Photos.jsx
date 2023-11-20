@@ -59,6 +59,9 @@ function EspacePhoto () {
         </SlideshowLightbox>
         </div>
         <div className="galeriePhoto6">
+        <div className="texteGaleriePhoto4-3">
+        <h2>Partie commune</h2>
+        </div>
         <SlideshowLightbox className="container5">
             <img className="photo photo9 w-full rounded" src= {Img9} alt ="Couloir La Famicale" />
         </SlideshowLightbox>

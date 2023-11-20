@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    color: #FF6060;
+    color: rgba(86,96,111,1);
 }
 
 .page404 h1 {
@@ -17,7 +17,7 @@
 
 .link {
     display: flex;
-    color: #FF6060;
+    color: rgba(86,96,111,1);
     justify-content: center;
     font-size: 18px;
     margin-top: 100px;
@@ -38,5 +38,22 @@
         margin-top: 70px;
         margin-bottom: 20px;
         font-size: 14px;
+    }
+}
+
+@media screen and (max-width:767px){
+    .page404 h1 {
+        font-size: 150px;
+        margin-top: 75px;
+        margin-bottom: 20px;
+    }
+    .page404 p {
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .link {
+        margin-top: 100px;
+        margin-bottom: 20px;
+        font-size: 18px;
     }
 }
